@@ -38,8 +38,8 @@ app.use(session({
     //     ttl: 60,
     //     retries: 0
     // }),
-    store:MongoStore.create({
-        mongoUrl:process.env.MONGO
+    store: MongoStore.create({
+        mongoUrl: process.env.MONGO
     }),
     secret: 'P3LIGR0',
     resave: false,
