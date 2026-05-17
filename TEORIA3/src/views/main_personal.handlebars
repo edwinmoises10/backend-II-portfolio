@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- Aquí se renderiza el parámetro "nombre" -->
+        <h1>¡Hola!</h1>
+        <p>Bienvenido a la aplicación conectada a MongoDB Atlas.</p>
+        <p><button id="editInformation">Edit Information</button></p>
+        <div class="container my-5">
+
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga vero magni tenetur vitae rerum repellendus necessitatibus quos sint, dolor exercitationem nulla consectetur. Cupiditate excepturi dolores unde ratione. Laboriosam, tempora quae.</p>
+                </div>
+                 <div class="col-xl-10"> <button id="logout" >Log Out</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../public/logOut.js"></script>
